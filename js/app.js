@@ -44,6 +44,8 @@ function getData() {
 
       addDate(); //data i godzina pobrania zdjęć
       
+      //UWAGA! Zmieniłem miasta ponieważ nie udostępniają obecnie żadnych zdjęć (kamery wyłączone?) Wymieniłem je na Bielmote oraz Campo Tures
+
       //Bielmonte
       const cam1 = data[32].cams;
       $( "<h2>" ).append(data[32].name).appendTo( "#camera1" ); 
