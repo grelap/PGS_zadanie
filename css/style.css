@@ -336,13 +336,46 @@ input[type="submit"] {
       margin: 25px;
     }
     
+    .main-menu {
+      width:100%;
+      padding: 0;
+      margin: 0;
+    }
+    ul.main-menu{
+     
+    }
+    .main-menu li {
+      margin-left:20px;
+      margin-right:-25px;
+    }
+
+
     #camera1 p:first-child, #camera2 p:first-child {
-      padding: 30px;
+      padding: 10px;
       background-color: white;
       color:#686868;
       text-align: center;
       font-size: 0.1em;
     }
+    footer {
+      margin:0;
+      background-color: #282828;
+      height:145px; 
+      text-align: center;
+      padding:0;
+      box-shadow: none;
+    }
+    
+    #camera1, #camera2{
+      width: 100%;
+      padding: 50px 10px 60px 10px;
+      background-color: white;
+      margin: 0;
+    }
+    .cam-box {
+      flex-flow: wrap;
+    }
+
   }
 
   /* -------max 480px------- */
@@ -358,24 +391,31 @@ input[type="submit"] {
       margin: 0 auto;
       text-transform: uppercase;
       height: 55vh;
+      
+    }
+    .main-menu {
+      width:100%;
+      padding: 0;
+      margin: 0;
     }
     
     nav ul li{
       list-style-type: none;
       display: block;
       height:40px;
+      margin:0 auto;
     }
 
     ul.main-menu{
       padding: 0;
       text-align: center;
-      margin:0 auto;
+      margin: 0 auto;
     }
 
     .main-menu a {
       text-decoration: none;
-      padding: 0;
-      margin: 0;
+      /* padding: 0;
+      margin: 0; */
       color: #6e6e6e;
       border-bottom: 1px dashed grey;
     }
@@ -387,7 +427,7 @@ input[type="submit"] {
     }
 
     .main-menu a:first-child{
-      margin: 0;
+      margin: 0 auto;
     }
     
     .cam-box {
@@ -412,19 +452,24 @@ input[type="submit"] {
     .navbar {
       width: 100%;    
       margin: 0 auto;
-      text-transform: uppercase;
       height: 55vh;
+      margin:0 auto;
     }
     
     nav ul li{
       list-style-type: none;
       display: block;
       height: 40px;
+      
+    }
+    .main-menu li{
+      margin:0 auto;
     }
 
     ul.main-menu{
       padding: 0;
       text-align: center;
+      
     }
 
     .main-menu a {
