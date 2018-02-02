@@ -4,8 +4,9 @@
 Wymieniłem je na Bielmote oraz Campo Tures, myślę że to nie robi jakiejś specjalnej różnicy a efekt jest lepszy z bitmapami.
 
 
-Nie korzystałem z dodatkowych bibliotek (tylko normalize.css)
+Biblioteki i narzędzia które używałem: jQuery, normalize.css, photoshop, visual studio code.
 Jeżeli jest taka konieczność mogę przerobić kod na bootstrapa.
+
 
 Poniżej demo:
 
