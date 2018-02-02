@@ -47,7 +47,7 @@ function getData() {
       //Bielmonte
       const cam1 = data[32].cams;
       $( "<h2>" ).append(data[32].name).appendTo( "#camera1" ); 
-      //wg zadania tutaj powinno się znaleźć Andalo - wystarczy zmienić 32 element tablicy na 14 -> w data[32].name oraz data[32].cams
+      //wg zadania tutaj powinno się znaleźć Andalo - wystarczy zmienić 32 element tablicy na 14 -> w data[32].name oraz data[32].cams -> poniżej kod:
       // const cam1 = data[14].cams;
       // $( "<h2>" ).append(data[14].name).appendTo( "#camera1" );
       $.each( cam1, function( i, item ) {
@@ -58,7 +58,7 @@ function getData() {
       //Campo Tures
       const cam2 = data[45].cams;
       $( "<h2>" ).append(data[45].name).appendTo( "#camera2" ); 
-      //wg zadania tutaj powinno się znaleźć Monte Bondone - wystarczy zmienić 45 element tablicy na 159 -> w data[45].name oraz data[45].cams
+      //wg zadania tutaj powinno się znaleźć Monte Bondone - wystarczy zmienić 45 element tablicy na 159 -> w data[45].name oraz data[45].cams -> poniżej kod:
       // const cam2 = data[159].cams;
       // $( "<h2>" ).append(data[159].name).appendTo( "#camera2" );
       $.each( cam2, function( i, item ) {
