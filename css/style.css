@@ -448,7 +448,9 @@ input[type="submit"] {
       margin: 30px auto;
       width: 50%;  
     }
-   
+   body {
+     max-width:320px;
+   }
     /* .navbar {
       width: 100%;    
       margin: 0 auto;
