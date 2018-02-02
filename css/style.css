@@ -340,13 +340,12 @@ input[type="submit"] {
     }
     
     .main-menu {
-      width:100%;
+      width: 100%;
       padding: 0;
       margin: 0;
     }
-    ul.main-menu{
-     
-    }
+
+    
     .main-menu li {
       margin-left:20px;
       margin-right:-25px;
@@ -465,12 +464,12 @@ input[type="submit"] {
       height: 40px;
     }
     
-    /* .main-menu li{
+    .main-menu li{
       margin:0 auto;
-    } */
-    /* .main-menu {
-      margin:0 auto;
-    } */
+    } 
+    .main-menu {
+      margin:0 auto; 
+    } 
 
     .main-menu li{
       padding: 0;
