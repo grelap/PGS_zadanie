@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>PGS Zadanie - Front end / contact</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar" main-role="nawigation">
+        <!-- logo -->
+        <div class="logo">
+          <a href="index.html" title="PGS software">
+            <span><object type="image/svg+xml" data="img/logo.svg" width="145" height="80">Your browser does not support SVGs</object></span>
+          </a>
+        </div>
+        <!-- navbar -->
+        <ul class="main-menu">
+            <li><a href="index.html" id="about">about us</a></li>
+            <li><a href="skicams.html" id="skicams">skicams</a></li>
+            <li><a href="contact.html" id="contact" >contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- main section -->
+  <section class="main">
+    <div class="container" id="content"> 
+      <form id="contact-form">
+          <input type="text" placeholder="Name" required >
+          <input type="email" placeholder="Email" required >
+          <textarea cols="39" rows="8" placeholder="Message"></textarea>
+          <input type="submit" value="SEND" autocomplete="off"> 
+      </form>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer>
+    <p>Powered by PGS</p>
+  </footer>
+</body>
+</html>
