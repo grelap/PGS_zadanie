@@ -11,8 +11,7 @@ $(document).ready( function() {
     e.preventDefault();
     $("a").removeClass()
     $(this).toggleClass("on");
-    //funkcja pobierająca dane
-    getData();
+    getData(); //funkcja pobierająca dane
     $(".main").load("skicams.html #content");
   });
 
@@ -40,31 +39,33 @@ function getData() {
     type : "get",
   })
     .done(function(data) {
-      //wypisanie pobranych danych w konsoli 
+      //testowe wypisanie pobranych danych w konsoli 
       console.log(data);
-      addDate();
+
+      addDate(); //data i godzina pobrania zdjęć
+      
+      //Bielmonte
       const cam1 = data[32].cams;
       $( "<h2>" ).append(data[32].name).appendTo( "#camera1" ); 
-      //wg zadania tutaj powinno się znaleźć Andalo - wystarczy odkomentować i usnąć linie 37, 38
+      //wg zadania tutaj powinno się znaleźć Andalo - wystarczy zmienić 32 element tablicy na 14 -> w data[32].name oraz data[32].cams
       // const cam1 = data[14].cams;
       // $( "<h2>" ).append(data[14].name).appendTo( "#camera1" );
-
       $.each( cam1, function( i, item ) {
         $( "<img>" ).attr( "src", item.url ).appendTo( "#camera1" );
         $( "<p>" ).append(item.name).appendTo( "#camera1" );
       });
-
-      //wg zadania tutaj powinno się znaleźć Monte Bondone - wystarczy odkomentować i usnąć linie 51,52
-      // const cam2 = data[159].cams;
-      // $( "<h2>" ).append(data[159].name).appendTo( "#camera2" );
+      
+      //Campo Tures
       const cam2 = data[45].cams;
       $( "<h2>" ).append(data[45].name).appendTo( "#camera2" ); 
-
+      //wg zadania tutaj powinno się znaleźć Monte Bondone - wystarczy zmienić 45 element tablicy na 159 -> w data[45].name oraz data[45].cams
+      // const cam2 = data[159].cams;
+      // $( "<h2>" ).append(data[159].name).appendTo( "#camera2" );
       $.each( cam2, function( i, item ) {
         $( "<img>" ).attr( "src", item.url ).appendTo( "#camera2" );
         $( "<p>" ).append(item.name).appendTo( "#camera2" );
       });
-      console.log(cam1);  
+      
     })
     
     .fail(function(data) {
@@ -73,7 +74,7 @@ function getData() {
     });
 }
 
-//funkcja wyświetlająca datę i godzinę
+//funkcja wyświetlająca datę i godzinę pobrania zdjęć
 function addDate() {
   //data
   const d = new Date();
