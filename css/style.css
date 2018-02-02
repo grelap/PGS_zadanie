@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   font-family: 'Roboto', sans-serif;
   display: flex;
@@ -15,7 +16,7 @@ body {
 h2 {
   font-size: 2em;
   font-weight: 400;
-  margin:15px 0 0 2px;
+  margin: 15px 0 0 2px;
 }
 
 .clearfix,
@@ -66,13 +67,13 @@ nav ul li{
   font-size: 1.2em;
   letter-spacing: -0.01em;
   text-decoration: none;
-  padding:0 0 11px 0;
+  padding: 0 0 11px 0;
   margin: 10px 57px 10px 57px;
   color: #6e6e6e;
 }
 
 .main-menu a:first-child{
-  margin-left:10px;
+  margin-left: 10px;
 }
 
 .main-menu a:hover {
@@ -83,6 +84,7 @@ nav ul li{
 .main-menu a:visited {
   color: #6e6e6e;
 }
+/* ---- */
 
 /* buttons on/off */
 .on {
@@ -102,18 +104,18 @@ nav ul li{
 }
 
 .main p {
-  margin:-25px 0 30px 2px;
+  margin: -25px 0 30px 2px;
   font-size: 1.2em;
 }
 /* ---- */
 
 /* container */
 .container {
-  max-width:1370px;
+  max-width: 1370px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap; 
-  height:auto; 
+  height: auto; 
 }
 /* ---- */
 
@@ -121,7 +123,7 @@ nav ul li{
 .box {
   flex-basis: 30%;
   height: auto;
-  margin: 0px 50px 200px 0;
+  margin: 0 50px 200px 0;
   background-color: white;
   box-shadow: 1px 1px 5px 1px#cfcfcf;
 }
