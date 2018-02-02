@@ -448,15 +448,13 @@ input[type="submit"] {
       margin: 30px auto;
       width: 50%;  
     }
-   body {
-     max-width:320px;
-   }
-    /* .navbar {
-      width: 100%;    
+   
+    .navbar {
+      width: 100vw;    
       margin: 0 auto;
       height: 55vh;
       margin:0 auto;
-    } */
+    }
     
     nav ul li{
       list-style-type: none;
