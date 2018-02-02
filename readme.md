@@ -9,5 +9,5 @@ Jeżeli jest taka konieczność mogę przerobić kod na bootstrapa.
 
 Poniżej demo:
 
-https://grelap.github.io/PGS-zadanie/
+https://grelap.github.io/PGS_zadanie/
 
