@@ -391,7 +391,7 @@ input[type="submit"] {
     }
     
     .cam-box {
-      flex-wrap: wrap;
+      flex-flow: wrap;
     }
 
     #camera1, #camera2{
