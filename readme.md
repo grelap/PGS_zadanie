@@ -6,7 +6,7 @@ Jeżeli chodzi o datę to chyba wcześniej przychodziła z JSON'a jednak teraz z
 dlatego wstawiłem datę pobrania bitmap.
 
 
-Biblioteki i narzędzia które używałem: jQuery, normalize.css, photoshop, visual studio code.
+Dodatkowe użyte biblioteki: jQuery oraz normalize.css .
 Jeżeli jest taka konieczność mogę przerobić kod na bootstrapa.
 
 
